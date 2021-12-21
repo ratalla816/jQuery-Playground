@@ -40,7 +40,7 @@
 https://ratalla816.github.io/jquery-playground/
 
   ## Screenshot
-  ![Screenshot](./assets/images/jquery.gif)
+  ![Screenshot](./assets/images/jquery.png)
 
   ## Features
   TBD
