@@ -14,12 +14,13 @@
   
   ## Description
   
-   TBD
+    This is a playground for jQuery. It is a simple web page that allows you to test your jQuery code.
  
   ## Table of Contents
   - [Description](#description)
   - [Documentation](#documentation)
   - [Usage](#usage)
+  - [Deployment](#deployment)
   - [Screenshot](#screenshot)
   - [Features](#features)
   - [Acknowledgements](#acknowledgements)
@@ -28,19 +29,25 @@
   - [Contact](#contact)
 
   ## Documentation
-  TBD
+  
+  * jQuery<https://jquery.com/>
  
-  ## Usage
-  TBD
+  ## Usage 
+    Feel free to clone my repository and experiment with the code.
+
+  ## Deployment
+
+https://ratalla816.github.io/jquery-playground/
 
   ## Screenshot
-  ![Screenshot](TBD)
+  ![Screenshot](./assets/images/jquery.gif)
 
   ## Features
   TBD
   
   # Acknowledgements
-  TBD
+  
+  * Traversy Media - jQuery Crash Course <https://www.youtube.com/watch?v=3nrLc_JOF7k>
     
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-important)
@@ -49,7 +56,7 @@
 
 
   ## Testing
-  TBD
+  Not Applicable
 
   ## Contact:
   Holler at me! <a href="mailto:rob.atalla@robatalla816.com">rob.atalla@robatalla816.com</a>
