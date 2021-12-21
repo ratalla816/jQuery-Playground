@@ -26,6 +26,11 @@
         <h2>DOM Manipulation</h2>
     </header>
     <div class="container">
+        <button id="btn1">Button 1</button>
+        <p class="paragraph1">This is paragraph 1</p>
+        <p class="paragraph2">This is paragraph 2</p>
+        <div id="myDiv"></div>
+        </div>
   
     </div>
     <footer>
@@ -67,6 +72,24 @@
 
     <!-- Use with Unlinked JS file -->
 <script>
+$(document).ready(function(){
+    $('p.paragraph1').css({color: 'red', background:'#ccc'});
+});
+
+// $('#btn1').click(function(){
+//     $('p.paragraph2').toggleClass('myClass');
+// });
+
+// $('#myDiv').html('<h3>Hello World</h3>');
+// alert($('#myDiv').text());
+
+// $('paragraph2').addClass('myClass');
+// $('paragraph2').removeClass('myClass');
+$('btn1').click(function(){
+    $('p.paragraph2').toggleClass('myClass');
+});
+
+
 
 </script>
 </html>
