@@ -30,7 +30,7 @@
 
   ## Documentation
   
-  * jQuery<https://jquery.com/>
+  * jQuery <https://jquery.com/>
  
   ## Usage 
     Feel free to clone my repository and experiment with the code.
