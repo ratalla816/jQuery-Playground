@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Use with Unlinked JS file -->
-    <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>jQuery Playground - Selectors</title>
 </head>
@@ -70,69 +70,69 @@
 
     </div>
     <footer>
-
-        <button type="button" class="nav">
+        <div id="nav">
+        <button type="button" class="nav" id="index">
             <h2>jQUERY<br>SELECTORS</h2>
             <a href="./index.html" target="_blank">
             <img src="./assets/images/ace.jpg" alt="image of ace of spades playing card, by Klim Musalivov courtesy of Unsplash https://unsplash.com/photos/5kjxC9SiwH8" 
-            height ="100" wclassth="100" />
+            height ="100" width="100" />
         </button>
         
-        <button type="button" class="nav">
+        <button type="button" class="nav" id="events">
             <h2>jQUERY<br>EVENTS</h2>
             <a href="./events.html" target="_blank">
             <img src="./assets/images/ace-heart.jpg" alt="image of ace of hearts playing card, by Angshu Purkait courtesy of Unsplash https://unsplash.com/photos/IU4UKIfPqEQ" 
-            height ="100" wclassth="100" />
+            height ="100" width="100" />
         </button>
 
-        <button type="button" class="nav">
+        <button type="button" class="nav" id="stuff">
             <h2>jQUERY<br>STUFF</h2>
             <a href="./stuff.html" target="_blank">
             <img src="./assets/images/jack-spade.jpg" alt="image of Jack of spades playing card, by Erik Mclean courtesy of Unsplash https://unsplash.com/photos/p1Xx215ooiM" 
-            height ="100" wclassth="100" />
+            height ="100" width="100" />
         </button>
 
-        <button type="button" class="nav">
+        <button type="button" class="nav" id="things">
             <h2>jQUERY<br>THINGS</h2>
             <a href="./things.html" target="_blank">
             <img src="./assets/images/queenie.jpg" alt="image of queen of hearts playing card, by Klim Musalivov courtesy of Unsplash https://unsplash.com/photos/5kjxC9SiwH8" 
-            height ="100" wclassth="100" />
+            height ="100" width="100" />
         </button>
+     </div>
     </footer>
 
-    <!-- Use with linked JS file -->
+</body>
+  <!-- Use with linked JS file -->
     <!-- <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
     <!-- <script src="./assets/js/script.js"></script> -->
 
     <!-- Use with Unlinked JS file -->
-<script>
-//  $('h1#').hide();
-
-// $('h1#heading1').hide();
-
-// $('h1.heading2').hide();
-// $('.heading2').hide();
-
-// $("p span").css("color", "red");
-$("span").css("color", "red");
-
-$('ul#list li:first').css('color', 'red');
-$('ul#list li:last').css('color', 'blue');
-$('ul#list li:even').css('background-color', 'green');
-$('ul#list li:odd').css('background-color', '#ccc');
-
-// bullet removed from every 3rd list item //
-$('ul#list li:nth-child(3n)').css('list-style', 'none');
-
-// $(':button').hide();
-// $(':submit').hide();
-// $(':text').hide();
-
-// $('[href]').css('color', 'red');
-$('a[href="http://www.google.com"]').css('color', 'green');
-
-// $('*').hide();
-</script>
-</body>
-
+    <script>
+        //  $('h1#').hide();
+        
+        // $('h1#heading1').hide();
+        
+        // $('h1.heading2').hide();
+        // $('.heading2').hide();
+        
+        // $("p span").css("color", "red");
+        $("span").css("color", "red");
+        
+        $('ul#list li:first').css('color', 'red');
+        $('ul#list li:last').css('color', 'blue');
+        $('ul#list li:even').css('background-color', 'green');
+        $('ul#list li:odd').css('background-color', '#ccc');
+        
+        // bullet removed from every 3rd list item //
+        $('ul#list li:nth-child(3n)').css('list-style', 'none');
+        
+        // $(':button').hide();
+        // $(':submit').hide();
+        // $(':text').hide();
+        
+        // $('[href]').css('color', 'red');
+        $('a[href="http://www.google.com"]').css('color', 'green');
+        
+        // $('*').hide();
+    </script>    
 </html>

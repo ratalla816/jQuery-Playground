@@ -27,5 +27,5 @@ header {
     width: 10%;
     margin-top: 3rem;
     border-radius: 2rem;
-   
+   z-index: 1;
 }
